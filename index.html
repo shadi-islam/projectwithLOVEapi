@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Toma</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body class="nothing">
+
+    <div class="floral-animation-overlay">
+        <div class="floral-vector pink-rose rose-top-right"></div>
+        <div class="floral-vector pink-rose rose-mid-left"></div>
+        <div class="floral-vector yellow-flower flower-bottom-left"></div>
+        <div class="floral-vector yellow-flower flower-mid-right"></div>
+        <div class="floral-vector dark-leaf leaf-1"></div>
+        <div class="floral-vector dark-leaf leaf-2"></div>
+        <div class="floral-vector fern fern-1"></div>
+        <div class="floral-vector fern fern-2"></div>
+        <div class="floral-vector berry-sprig sprig-1"></div>
+        <div class="floral-vector berry-sprig sprig-2"></div>
+    </div>
+
+    <div class="app-container">
+        <header class="dedication-header">
+            <h1 class="cute-title">TOMA</h1>
+            <span class="sub-statement">I might not be a literature freak guy, but I can bring it for you in my way...</span>
+        </header>
+
+        <div class="floating-face-canvas">
+            <div class="brows-container">
+                <div class="brow left-brow"></div>
+                <div class="brow right-brow"></div>
+            </div>
+            
+            <div class="eyes-container">
+                <div class="eye left-eye">
+                    <div class="iris"><div class="pupil"></div><div class="catchlight"></div></div>
+                </div>
+                <div class="eye right-eye">
+                    <div class="iris"><div class="pupil"></div><div class="catchlight"></div></div>
+                </div>
+            </div>
+
+            <div class="mouth-container">
+                <svg viewBox="0 0 100 20" class="mouth-svg">
+                    <path d="M 20 10 Q 50 10 80 10" class="mouth-line" />
+                </svg>
+            </div>
+        </div>
+
+        <div class="quote-card glass-panel">
+            <p class="quote-display" id="quote">"Choose your preference below to begin tracking through the blooms..."</p>
+            <span class="author-display" id="author">— System</span>
+        </div>
+
+        <div class="action-deck glass-panel control-card">
+            <div class="language-selector">
+                <button type="button" class="lang-btn active" data-lang="en">English Literature</button>
+                <button type="button" class="lang-btn" data-lang="bn">বাংলা সাহিত্</button>
+            </div>
+            <button id="fetch-btn" class="glass-button">Turn the page</button>
+        </div>
+    </div>
+
+    <script src="quotes.js"></script>
+    <script src="quotes_bn.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
